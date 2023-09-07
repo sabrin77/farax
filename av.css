@@ -1,0 +1,238 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.header {
+
+    
+    background-color: white;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.right-side-btn{
+
+    margin-right: 60px;
+}
+.header h1 {
+    font-size: 40px;
+}
+
+.header ul {
+    display: flex;
+    list-style: none;
+}
+
+.header ul li {
+    padding: 8px 30px;
+}
+
+.header ul li a {
+    font-size: 30px;
+    text-decoration: none;
+    color: black;
+}
+
+
+.loginBtn {
+    padding: 10px 40px;
+    background-color: #204E51;
+    border: none;
+    font-size: 20px;
+    border: 2px solid #204E51;
+    color: white;
+    border-radius: 10px;
+}
+
+.signUpBtn {
+    padding: 10px 40px;
+    border: 2px solid #204E51;
+    font-size: 20px;
+    color: #204E51;
+    border-radius: 10px;
+
+}
+
+
+.hero {
+    /* opacity: 0.8; */
+    height: 600px;
+    background-image: url("6.jpg");
+    text-align: center;
+}
+.hero h1 {
+    color: white;
+    padding-top: 10%;
+    font-size: 86px;
+}
+.hero p {
+    color: white;
+    font-size: 18x;
+    margin: 10px 30%;
+}
+
+.getStartedBtn {
+    margin-top: 40px;
+    font-size: 22px;
+    border-radius: 22px;
+    color: white;
+    background-color: #204E51;
+    padding: 15px 40px;
+    border: 3px solid #204E51;
+
+}
+
+.learnBtn {
+    font-size: 22px;
+    border-radius: 22px;
+ 
+    color: #204E51;
+    border: 3px solid #204E51;
+    padding: 15px 40px;
+
+}
+
+.passion-parent {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    padding: 20px 50px;
+}
+.left-side h1 {
+    font-size: 70px;
+    color: #204E51;
+}
+.right-side img {
+    width: 500px;
+    height: 500px;
+    border-radius: 22px;
+}
+.left-side button {
+    margin-top: 20px;
+    padding: 15px 50px;
+    background-color: #204E51;
+    font-size: 26px;
+    color: white;
+    border: none;
+    border-radius: 32px;
+}
+
+
+.right-side h1 {
+    box-shadow: 0px 2px  4px grey;
+    bottom: -70px;
+    right: 58px;
+    position: absolute;
+    text-align: center;
+    font-size: 50px;
+    color: #204E51;
+    background-color: white;
+    width: 300px;
+    padding: 40px;
+    border-radius: 22px;
+}
+
+
+.right-side {
+    position: relative;
+}
+
+
+.service {
+    margin: 5% 10px;
+    text-align: center;
+}
+.service h1 {
+    font-size: 70px;
+    color: #204E51;
+}
+.service p {
+    font-weight: 300;
+    margin: 20px 30%;
+
+}
+
+
+
+
+.box-parent {
+    margin-bottom: 80px;
+    display: grid;
+    grid-template-columns: 250px 250px 250px 250px;
+    justify-content: center;
+    gap: 60px;
+}
+.box1 img{
+  margin-bottom: 1rem;
+}
+.box1 p {
+  margin-top: 1rem;
+}
+.box1 {
+    box-shadow: 0px 2px 3px grey;
+    border-radius: 22px;
+    padding: 70px 20px ;
+    text-align: center;
+   background-color: white;
+}
+
+.box1 h1 {
+    font-size: 22px;
+    color: #204E51;
+}
+
+
+.benefits-parent {
+    margin: 10% 1px;
+    display: flex;
+    padding: 1px 50px;
+}
+
+.l-side h1 {
+    font-size: 85px;
+    color: #204E51;
+}
+.l-side button{
+    margin-top: 20px;
+    background-color: #204E51;
+    color: white;
+    border: none;
+    font-size: 22px;
+    border-radius: 10px;
+    padding: 12px 60px;
+}
+
+.l-side p {
+    margin-top: 20px;
+    font-weight: 300;
+}
+
+.r-side {
+    border-radius: 20px;
+    background-color: #204E51;
+    height: 600px;
+    width: 1200px;
+}
+
+.icon {
+    padding: 20px;
+    color: white;
+    display: flex;
+    gap: 40px;
+}
+
+.icon h1 {
+    font-size: 50px;
+}
+
+.icon i {
+    background-color: #81cdd313;
+    height: 50px;
+    padding: 30px;
+    width: 50px;
+    border-radius: 50%;
+    font-size: 50px;
+}
